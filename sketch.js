@@ -16,6 +16,7 @@ function draw() {
   let diam = map(level, 0, 1, 10, 400);
   fill("red"); // red circle
   ellipse(150, 150, diam, diam);
+  console.log(mySound);
 }
 
 function mousePressed() {
