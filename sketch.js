@@ -1,7 +1,7 @@
 let mySound, amplitude;
 
 function preload() {
-  mySound = loadSound("Tropical House.wav");
+  mySound = loadSound(Math.random() > .5 ? "Tropical House.wav" : "music.mp3");
 }
 
 function setup() {
